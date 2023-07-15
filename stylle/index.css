@@ -44,16 +44,54 @@ nav a{
     text-decoration: none;
     color: #474747;
 }
-/* header related sttyle */
+/* header related style */
 .header-bg{
     background-color: #FFF8F3;
+    background-image: url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position:bottom right;
 }
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content:space-between ;
 }
 .img{
     width: 500px;
+    /* padding: 0; */
     
+}
+.banner-greeting{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 0px;
+}
+.banner-heading{
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 700;
+    color: #181818;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+.extra1{
+    background-color: white;
+    color: #FD6E0A;
+    border:1px solid  #FD6E0A;
+    margin-left: 15px;
+
+}
+.pera{
+    margin-top: 20px;
+    max-width: 585px;
+    font-size: 18px;
+font-weight: 400;
+line-height: 30px; 
+     color:#757575 ;
+     margin-bottom: 0px;
+}
+.btn-di{
+    margin-top: 30px;
 }
